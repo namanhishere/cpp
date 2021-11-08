@@ -72,7 +72,4 @@ int main()
     }
     //linebreak
     cout <<"\n";
-
-
-
 }
