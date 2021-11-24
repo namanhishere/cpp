@@ -20,7 +20,7 @@ int main()
         }
     }
 
-    if(status == 0 || inp != 1){
+    if(status == 0){
         cout << "khong phai so nguyen to";
     }else{
         cout <<"la so nguyen to";
