@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639212693 source:d:\code\cpp\baitapfile\baitapcocho-2\main.cpp
+	<iostream>
+	<fstream>
+
