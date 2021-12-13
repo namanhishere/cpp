@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639213616 source:d:\code\cpp\baitapfile\demsotrangsach\main.cpp
+	<iostream>
+	<fstream>
+

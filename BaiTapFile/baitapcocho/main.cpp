@@ -1,11 +1,11 @@
 #include <iostream>
 #include <fstream>
-
+#include <math.h>
 using namespace std;
 
 bool nguyenCheck(int num){
-
-    for(int i = 2; i < num; i++){
+    if( n < 2) return false;
+    for(int i = 2; i < trunc(num); i++){
         if(num % i == 0) return false;
     }
     return true;

@@ -3,11 +3,10 @@
 
 using namespace std;
 
-int daoso(int n){
+int demchuso(int n){
     int out = 0;
-    if(x < 0) x = -x;
     while(n % 10 != 0){
-        out = out*10+n%10;
+        out++;
         n = n /10;
     }
     return out;
@@ -16,16 +15,15 @@ int daoso(int n){
 
 int main()
 {
-    int n;
+    long long int n;
     ifstream inp ("data.inp");
     ofstream kq ("kq.out");
     inp >> n;
-    int temp;
-    int sum = 0;
-    for(int i = 1; i <= n; i ++ ){
-        inp >> temp;
-        kq << daoso(temp)<<endl;
+    long long int sum = 0;
+    for(long long int i = 1; i <= n; i ++ ){
+        sum += demchuso(n);
     }
+    kq<<sum;
     inp.close();
     kq.close();
 }
